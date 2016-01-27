@@ -109,7 +109,7 @@ module.exports = (robot) ->
     # Callback
     (response) ->
       fact = response.match
-      res.reply "#{fact} is #{facts[fact]}"
+      response.reply "#{fact} is #{facts[fact]}"
   )
 ```
 
